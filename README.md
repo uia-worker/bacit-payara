@@ -35,7 +35,7 @@ payara/server-full image is based on azul/zulu-openjdk:8u222
 
     $ mvh clean install
 
-For example, with at local installation of maven
+For example, with a local installation of maven
 
     $ mvn --version
     Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
