@@ -14,9 +14,9 @@ janisdocker/javabuilder is based on openjdk:8-jdk-alpine and MAVEN_VERSION=3.3.9
 
 
 Run the application:
-(
+
     $ docker run -p 8080:8080 -p 4848:4848 -v <RELEVANT_DIRECTORY_ON_A_LOCAL_MOUNT>:/opt/payara/deployments payara/server-full
-)
+
 
 To run pure html code from index.js use:
 (
