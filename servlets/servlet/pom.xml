@@ -13,12 +13,18 @@
   <artifactId>servlet</artifactId>
   <packaging>war</packaging>
 
-  <name>servlet</name>
+  <!-- <name>servlet</name> -->
 
   <dependencies>
     <dependency>
       <groupId>payaraexamples</groupId>
       <artifactId>primary-source</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>

@@ -5,7 +5,6 @@ A directory structure for a simple j2ee project which can be deployed to the Pay
 
 
 
-
 Build with the container 
 
     $ docker run --rm --name java_maven2_build -it -v "$PWD":/usr/src/app  -v "$HOME"/.m2:/root/.m2 janisdocker/javabuilder clean install
@@ -30,6 +29,8 @@ To check the admin interface use:
 
 payara/server-full image is based on azul/zulu-openjdk:8u222 
 (see https://github.com/payara/docker-payaraserver-full/blob/master/Dockerfile and  https://www.azul.com/products/zulu-enterprise/supported-platforms/)
+
+See examples at https://github.com/payara/Payara-Examples
 
 2020-07-31: Build the application (locally on a macbookpro; requires maven and java installed):
 
